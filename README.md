@@ -45,3 +45,9 @@ docker run -d -p 7089:8080 --name lmcontainer lmsimage
 docker tag lmsimage <username>/lmsimage:latest
 docker push <username>/lmsimage:latest
 docker pull <username>/lmsimage:latest
+
+git branch -M main
+git push -u origin main
+
+git remote add origin1 <github-url>
+git push -u origin1 main
